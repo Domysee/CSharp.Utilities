@@ -11,8 +11,11 @@ namespace CSharp.Utilities
 
         public LambdaEqualityComparer(Func<T, T, bool> equals, Func<T, int> getHashCode)
         {
+            if (equals == null) throw new ArgumentNullException(nameof(equals));
+            if (getHashCode == null) throw new ArgumentNullException(nameof(getHashCode));
+
             this.equals = equals;
-            this.getHashCode = getHashCode ?? (obj => obj.GetHashCode());
+            this.getHashCode = getHashCode;
         }
 
         public bool Equals(T x, T y) => equals(x, y);
