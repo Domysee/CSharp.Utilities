@@ -9,6 +9,7 @@ namespace CSharp.Utilities.Collection
     {
         public static IEnumerable<T> Add<T>(this IEnumerable<T> enumerable, T addObject)
         {
+            if (enumerable == null) throw new ArgumentNullException(nameof(enumerable));
             return enumerable.Concat(new[] { addObject });
         }
     }
