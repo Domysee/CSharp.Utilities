@@ -12,5 +12,11 @@ namespace CSharp.Utilities.Collection
             if (enumerable == null) throw new ArgumentNullException(nameof(enumerable));
             return enumerable.Concat(new[] { addObject });
         }
+
+        public static IEnumerable<T> Except<T>(this IEnumerable<T> enumerable, T value)
+        {
+            if (enumerable == null) throw new ArgumentNullException(nameof(enumerable));
+            return enumerable.Except(new[] { value });
+        }
     }
 }
