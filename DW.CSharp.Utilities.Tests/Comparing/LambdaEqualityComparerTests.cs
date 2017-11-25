@@ -4,7 +4,7 @@ using System.Text;
 using Xunit;
 using FluentAssertions;
 
-namespace CSharp.Utilities.Tests.Comparing
+namespace DW.CSharp.Utilities.Tests.Comparing
 {
     public class LambdaEqualityComparerTests
     {

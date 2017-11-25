@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CSharp.Utilities\CSharp.Utilities.csproj" />
+    <ProjectReference Include="..\DW.CSharp.Utilities\DW.CSharp.Utilities.csproj" />
   </ItemGroup>
 
 </Project>

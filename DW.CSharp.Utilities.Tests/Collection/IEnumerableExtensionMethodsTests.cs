@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CSharp.Utilities.Collection;
+using DW.CSharp.Utilities.Collection;
 using FluentAssertions;
 using Xunit;
 
-namespace CSharp.Utilities.Tests.Collection
+namespace DW.CSharp.Utilities.Tests.Collection
 {
     public class IEnumerableExtensionMethodsTests
     {

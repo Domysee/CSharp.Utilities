@@ -11,6 +11,7 @@
     <PackageProjectUrl>https://github.com/Domysee/CSharp.Utilities</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Domysee/CSharp.Utilities</RepositoryUrl>
     <AssemblyVersion>0.1.0.0</AssemblyVersion>
+    <AssemblyName>DW.CSharp.Utilities</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CSharp.Utilities
+namespace DW.CSharp.Utilities
 {
     public class LambdaEqualityComparer<T> : IEqualityComparer<T>
     {

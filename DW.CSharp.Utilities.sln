@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2002
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp.Utilities", "CSharp.Utilities\CSharp.Utilities.csproj", "{F2E8BB10-7C34-4C31-92DF-D9247CDC985A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DW.CSharp.Utilities", "DW.CSharp.Utilities\DW.CSharp.Utilities.csproj", "{F2E8BB10-7C34-4C31-92DF-D9247CDC985A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.Utilities.Tests", "CSharp.Utilities.Tests\CSharp.Utilities.Tests.csproj", "{83173BD7-9417-465A-960D-66CBB344CF32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DW.CSharp.Utilities.Tests", "DW.CSharp.Utilities.Tests\DW.CSharp.Utilities.Tests.csproj", "{83173BD7-9417-465A-960D-66CBB344CF32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

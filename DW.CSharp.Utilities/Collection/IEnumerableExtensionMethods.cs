@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CSharp.Utilities.Collection
+namespace DW.CSharp.Utilities.Collection
 {
     public static class IEnumerableExtensionMethods
     {
