@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>0.1.0</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Company />
+    <Authors>Dominik Weber</Authors>
+    <Description>Utility classes and methods that make it easier to work with the .Net framework.</Description>
+    <Copyright>Dominik Weber</Copyright>
+    <PackageProjectUrl>https://github.com/Domysee/CSharp.Utilities</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Domysee/CSharp.Utilities</RepositoryUrl>
+    <AssemblyVersion>0.1.0.0</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
