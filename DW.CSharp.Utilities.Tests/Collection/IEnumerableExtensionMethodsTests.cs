@@ -10,6 +10,7 @@ namespace DW.CSharp.Utilities.Tests.Collection
 {
     public class IEnumerableExtensionMethodsTests
     {
+        #region Add
         [Fact]
         public void ExtensionMethodAdd_ShouldReturnNewIEnumerable_IfCorrectParameters()
         {
@@ -64,5 +65,18 @@ namespace DW.CSharp.Utilities.Tests.Collection
 
             act.Should().ThrowExactly<ArgumentNullException>();
         }
+        #endregion
+
+        #region RemoveNulls
+        [Fact]
+        public void ExtensionMethodRemoveNulls_ShouldRemoveNulls_IfCorrectParameters()
+        {
+            var enumerable = new[] { "a", "b", null };
+
+            var newEnumerable = enumerable.RemoveNulls();
+
+            newEnumerable.Should().NotContainNulls();
+        }
+        #endregion
     }
 }
